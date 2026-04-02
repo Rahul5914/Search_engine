@@ -79,7 +79,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 
 # ── Data loading ──────────────────────────────────────────────────────────────
 
-DATA_PATH = "data/candidates.csv"
+DATA_PATH = "candidates.csv"
 
 
 @st.cache_data(show_spinner=False)
